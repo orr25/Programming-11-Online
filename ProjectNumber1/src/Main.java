@@ -2,15 +2,12 @@ import java.util.Scanner;
 public class Main {
     //Code your solution to problem number one here
     static int problemOne(String s){
-        //TODO;
-
-
+        //TODO
         return -1;
     }
     //Code you problem number two here
     static int problemTwo(String s){
         //TODO
-
         return -1;
     }
     //Code your solution to problem number 3 here
