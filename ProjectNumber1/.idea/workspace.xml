@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3486de79-0aaf-48b5-ba1d-f6236915dcf4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Expressions Assignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Expressions Assignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectNumber1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectNumber1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +92,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570052627307" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/FinalProject-main/FinalProject-main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -101,7 +104,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="JUnit.TestClass">
+  <component name="RunManager" selected="JUnit.TestClass.testOne">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -195,8 +198,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestClass" />
         <item itemvalue="JUnit.TestClass.testOne" />
+        <item itemvalue="JUnit.TestClass" />
         <item itemvalue="JUnit.TestClass.testThree" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestClass.testTwo" />
@@ -245,8 +248,23 @@
       <workItem from="1630606710523" duration="879000" />
       <workItem from="1631117049642" duration="18000" />
       <workItem from="1631549249058" duration="16000" />
-      <workItem from="1638223147191" duration="1248000" />
+      <workItem from="1638223147191" duration="1876000" />
+      <workItem from="1638483994832" duration="17000" />
+      <workItem from="1639089784415" duration="188000" />
+      <workItem from="1639090847571" duration="355000" />
+      <workItem from="1639172909104" duration="334000" />
+      <workItem from="1644878577070" duration="1136000" />
+      <workItem from="1644950465002" duration="34000" />
+      <workItem from="1645726413952" duration="325000" />
     </task>
+    <task id="LOCAL-00001" summary="zxcv">
+      <created>1638224526884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638224526884</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -313,6 +331,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zxcv" />
+    <option name="LAST_COMMIT_MESSAGE" value="zxcv" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/StringTests.java">
