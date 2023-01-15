@@ -13,6 +13,8 @@ public class Deposit {
 
     public String toString(){
         //your code here
-        return "";
+        String message = "Deposit of: $" + amount + " Date: " + date.toString() + " into Account: "
+                + account;
+        return message;
     }
 }

@@ -13,6 +13,8 @@ public class Withdraw {
 
     public String toString(){
         //your code here
-        return "";
+        String message = "Withdraw of: $" + amount + " Date: " + date.toString() + " into Account: "
+                + account;
+        return message;
     }
 }
