@@ -16,6 +16,11 @@ public class Customer {
     Customer(){
         //create default constructor
     }
+
+    //Requires: double, int, double, double
+    //Modifies: this
+    //Effects:  Assigns account name, account number, and starting values of accounts
+    //          Initialize the deposits ArrayList, and withdraws Arraylist
     Customer(String name, int accountNumber, double checkDeposit, double savingDeposit){
         //constructor code here
         this.name = name;
@@ -26,6 +31,11 @@ public class Customer {
         this.withdraws = new ArrayList<Withdraw>();
     }
 
+    //Requires: double, Date, String
+    //Modifies: this.checkBalance, this.savingBalance, this.deposits
+    //Effects: Creates new deposit object, and adds it to the deposits arrayList
+    //         and adds the amount to the corresponding account (checking or savings)
+    //         Returns 1 if successful; otherwise returns 0;
     public double deposit(double amt, Date date, String account){
         //your code here
         Deposit d = new Deposit (amt, date, account);
@@ -34,13 +44,21 @@ public class Customer {
             checkBalance += amt;
             System.out.println(d.toString());
             System.out.println("Current Balance in " + account + " is: $" + this.checkBalance);
+            return 1;
         } else if (account.equals(SAVING)){
             savingBalance += amt;
             System.out.println(d.toString());
             System.out.println("Current Balance in " + account + " is: $" + this.savingBalance);
+            return 1;
         }
         return 0;
     }
+
+    //Requires: double, Date, String
+    //Modifies: this.checkBalance,  this.savingBalance, this.withdraws
+    //Effects:  Creates new withdraw object, and adds it to the deposits arrayList
+    //          and subtracts the amount to the corresponding account (checking or savings)
+    //          Returns 1 if successful; otherwise returns 0.
     public double withdraw(double amt, Date date, String account){
         //your code here
         if (!checkOverdraft(amt, account)) {
@@ -55,10 +73,17 @@ public class Customer {
                 System.out.println(w.toString());
                 System.out.println("Current Balance in " + account + " is: $" + this.savingBalance);
             }
-        } else
+            return 1;
+        } else {
             System.out.println("ERROR --- OVERDRAFT -- withdraw failed.");
-        return 0;
+            return 0;
+        }
     }
+
+    //Requires: double, String (account)
+    //Modifies: nothing
+    //Effects: Returns true if account's balance minus amt is less than overdraft value
+    //         otherwise it returns false.
     private boolean checkOverdraft(double amt, String account){
         //your code here
         if (account.equals(CHECKING)){
